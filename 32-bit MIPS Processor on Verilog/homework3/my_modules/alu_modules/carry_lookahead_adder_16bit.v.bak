@@ -1,0 +1,5 @@
+module carry_lookahead_adder_16bit (output [15:0] sum, output c_out, output g_out, output p_out, input [3:0] a, input [3:0] b, input c_in);
+	wire [3:0] p_out, g_out;
+	wire [2:0] c;
+	carry_lookahead_adder_4bit car1 (sum [3:0], c_out0, );
+endmodule

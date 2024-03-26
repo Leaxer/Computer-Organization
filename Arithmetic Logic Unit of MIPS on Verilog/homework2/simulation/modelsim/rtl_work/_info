@@ -1,0 +1,563 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/akif_/Desktop/quartus/homework2/simulation/modelsim
+vadder
+Z1 !s110 1702232477
+!i10b 1
+!s100 <kf2d6d6HIXADOUIV;KDO2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IflF6`K8=DUN]mU<QEV<z^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702230845
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v
+!i122 10
+Z4 L0 1 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1702232477.000000
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules
+Z9 tCvgOpt 0
+valu
+Z10 !s110 1702232475
+!i10b 1
+!s100 emU2D@95a8Xog[^[KBXl71
+R2
+IiGRg1QlN?D>eDUOM0BnQY0
+R3
+R0
+w1702060838
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v
+!i122 1
+L0 1 19
+R5
+r1
+!s85 0
+31
+Z11 !s108 1702232475.000000
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v|
+!i113 1
+R7
+R8
+R9
+vand_32bit
+R10
+!i10b 1
+!s100 ];<:fa_6X@ZN=kj5Ki?Z90
+R2
+I9[UhDefeD6X51z:06L0691
+R3
+R0
+w1701464655
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v
+!i122 0
+Z12 L0 1 34
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v|
+!i113 1
+R7
+R8
+R9
+vand_3bit
+R1
+!i10b 1
+!s100 KnoZf9F@9dz<m7B6@@FL33
+R2
+Ia;RDojbBVCnNG2`]@eEDj0
+R3
+R0
+w1702052276
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v
+!i122 19
+Z13 L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v|
+!i113 1
+R7
+R8
+R9
+vcarry_lookahead_adder_16bit
+R1
+!i10b 1
+!s100 ^o<FFUP22bYog_o8MM0`G0
+R2
+I4HDmjRTc0k3h>FYZ?9C>Z1
+R3
+R0
+w1702070283
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v
+!i122 16
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v|
+!i113 1
+R7
+R8
+R9
+vcarry_lookahead_adder_4bit
+R1
+!i10b 1
+!s100 L>QBgR2:0W`oXWTdKmDRI2
+R2
+Im0GG5LWS5Ocak59VTA8>b3
+R3
+R0
+w1702198421
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v
+!i122 11
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v|
+!i113 1
+R7
+R8
+R9
+vcarry_lookahead_logic
+R1
+!i10b 1
+!s100 _=gf=@F;;d1UA2mlzMF<Y3
+R2
+IbnhQIBdi]FC:dniCa@;:E0
+R3
+R0
+w1702049276
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v
+!i122 18
+L0 1 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v|
+!i113 1
+R7
+R8
+R9
+vcomparator
+R1
+!i10b 1
+!s100 JGBWYNWoKZ@]Vn5ABF^@o3
+R2
+INXY_4h:6;M4^H0=Sh`SED3
+R3
+R0
+w1702061476
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v
+!i122 15
+L0 1 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v|
+!i113 1
+R7
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules
+R9
+vdetect_overflow
+R1
+!i10b 1
+!s100 ODXKbBPW=AHgBkjM>?8422
+R2
+IPzm>KjZi:c<iC>Ba_mO5H0
+R3
+R0
+w1702071235
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v
+!i122 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v|
+!i113 1
+R7
+R8
+R9
+vfull_adder1bit
+Z15 !s110 1702232476
+!i10b 1
+!s100 e6LHL4o_=j_2QY@WKDBGZ1
+R2
+IINcz405fYFlN>n<8cdRBJ2
+R3
+R0
+w1702060237
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v
+!i122 5
+L0 1 7
+R5
+r1
+!s85 0
+31
+Z16 !s108 1702232476.000000
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v|
+!i113 1
+R7
+R8
+R9
+vmod
+R1
+!i10b 1
+!s100 4lN]4HZZmBS[HnB<zOoA_3
+R2
+Ijf:DVbFD[F_GWI6>ol4PS3
+R3
+R0
+w1701903439
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v
+!i122 12
+Z17 L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v|
+!i113 1
+R7
+R14
+R9
+vmod_cu
+R1
+!i10b 1
+!s100 e<A?oZP`R=MFmVmIHASWC1
+R2
+InM]N8XTj:B7TNb2QNWeIh2
+R3
+R0
+w1701903227
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v
+!i122 13
+L0 1 63
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v|
+!i113 1
+R7
+R14
+R9
+vmod_dp
+R1
+!i10b 1
+!s100 UdSWXdCcQN24YC7l;E3Nz2
+R2
+IgSJm4eiZ<L^<3Zelcd[iV0
+R3
+R0
+w1702071371
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v
+!i122 14
+L0 1 35
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v|
+!i113 1
+R7
+R14
+R9
+vmux2x1
+R15
+!i10b 1
+!s100 Jg1GWE]Yo`IQ`:[@G`R271
+R2
+ITTAL1N:fZ_fm^@WM`WOaU0
+R3
+R0
+w1702230826
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v
+!i122 8
+R17
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v|
+!i113 1
+R7
+R8
+R9
+vmux3x8
+R15
+!i10b 1
+!s100 YeAzL>EQgG3?@IaTbc[TF2
+R2
+I>C=RIQ7cWj^z:5=GbBJSF3
+R3
+R0
+w1701546776
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v
+!i122 9
+L0 1 16
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v|
+!i113 1
+R7
+R8
+R9
+vmy_testbench
+Z18 !s110 1702232478
+!i10b 1
+!s100 >:R3=U2^kX_9O[GoDm81e0
+R2
+I7iG4ITHzRzflAfzPozmIF2
+R3
+R0
+w1702232466
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v
+!i122 22
+L0 1 209
+R5
+r1
+!s85 0
+31
+Z19 !s108 1702232478.000000
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v|
+!i113 1
+R7
+R8
+R9
+vnor_32bit
+R15
+!i10b 1
+!s100 8hPf_ml3e69e5i64Nl<WA0
+R2
+IEX]QYWLK_ZG0^EM[Jke3=0
+R3
+R0
+w1701465193
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v
+!i122 4
+R12
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v|
+!i113 1
+R7
+R8
+R9
+vnot_32bit
+R15
+!i10b 1
+!s100 dYB_MKZ_g2m91Ea`M>FFz3
+R2
+I[H6oh<g`DdVcondS1AWJ90
+R3
+R0
+w1701546945
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v
+!i122 6
+R12
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v|
+!i113 1
+R7
+R8
+R9
+vor_32bit
+R15
+!i10b 1
+!s100 B6UUHO2Oa7Hb=5A[UKHm62
+R2
+IV`M3:W`Z?1Xo?3CeJk1n61
+R3
+R0
+w1701464820
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v
+!i122 2
+R12
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v|
+!i113 1
+R7
+R8
+R9
+vor_3bit
+R18
+!i10b 1
+!s100 SNXWlcKZLYg:39HIhi?DC1
+R2
+IIog?DmzC;E1O3=2KGh^dk0
+R3
+R0
+w1702059665
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v
+!i122 20
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v|
+!i113 1
+R7
+R8
+R9
+vsign_extend
+R18
+!i10b 1
+!s100 AzUk<>fz=7?EGfQXSZfH01
+R2
+II4ORl<9h?L7;S=oB^Lzb20
+R3
+R0
+w1702230738
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v
+!i122 21
+R12
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v|
+!i113 1
+R7
+R8
+R9
+vslt
+R15
+!i10b 1
+!s100 e>n>7RDE?fBnaMg0gi[541
+R2
+I>`Wb]2TNWL<6_I3EFZ;`92
+R3
+R0
+w1702230328
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v
+!i122 7
+L0 1 14
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v|
+!i113 1
+R7
+R8
+R9
+vxor_32bit
+R15
+!i10b 1
+!s100 4CVeM3TAHjn_Pb>hnfZ8M1
+R2
+IVMG2Sohj]8h6WX@H;:l^g1
+R3
+R0
+w1701465013
+8C:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v
+FC:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v
+!i122 3
+R12
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules|C:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v|
+!i113 1
+R7
+R8
+R9

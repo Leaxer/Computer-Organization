@@ -1,0 +1,4 @@
+module carry_lookahead_logic (output c_out, input [3:0] p, input [3:0] g, input c_in);
+
+
+endmodule

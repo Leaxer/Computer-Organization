@@ -1,0 +1,3 @@
+module instruction_block(input clock)
+
+endmodule

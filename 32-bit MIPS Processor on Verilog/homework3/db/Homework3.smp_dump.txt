@@ -1,0 +1,6 @@
+
+State Machine - |alu|mod:mod1|mod_cu:control|currentState
+Name currentState.IDLE currentState.FINISH currentState.SUBSTRACT 
+currentState.IDLE 0 0 0 
+currentState.SUBSTRACT 1 0 1 
+currentState.FINISH 1 1 0 

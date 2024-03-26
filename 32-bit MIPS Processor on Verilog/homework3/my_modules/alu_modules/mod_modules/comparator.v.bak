@@ -1,0 +1,5 @@
+module comparator (output x, input [31:0] a, input [31:0] b);
+	//wire [31:0] tempSub;
+	//adder_substractor_32bit sub (tempSub, x, a, b, 1'b1);
+	assign x = a < b; // yukariya donusecek
+endmodule

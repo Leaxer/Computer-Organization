@@ -1,0 +1,34 @@
+module mod_dp (
+	input CLK,
+   input s,
+   input we,
+   input [31:0] a,
+   input [31:0] b,
+   output x
+);
+reg [31:0] temp;
+wire [31:0] mux_out1;
+wire [31:0] mux_out2;
+wire tempCout;
+wire [31:0] sum;
+
+always @(posedge CLK)
+	begin
+	if(we) begin
+		$display ("%d-%d-%d-%0t", sum, temp, x, $time);
+		temp <= sum;
+		end
+	end
+	
+assign mux_out1 = s ? temp : a; // Mux 2x1
+assign mux_out2 = s ? b : 32'd0; // Mux 2x1
+
+
+adder_substractor_32bit sub(sum, tempCout, mux_out1, mux_out2, 1'b1);
+comparator comp(x, sum, b);
+
+
+
+
+// output 32 bit result dönecek
+endmodule

@@ -1,0 +1,58 @@
+module control_unit_testbench();
+	reg [5:0] opCode;
+	reg jrBit;
+	
+	wire RegDst, ALUSrc, MemtoReg, RegWr1, RegWr2, MemRead, MemWr;
+	wire bneS, Branch, jump, jrS, jalS, luiS, newSignal;
+	wire [1:0] ALUop;
+	
+	localparam period = 10;
+	
+	control_unit UUT(.opCode(opCode), .jrBit(jrBit), .RegDst(RegDst), .ALUSrc(ALUSrc), .MemtoReg(MemtoReg), 
+							.RegWr1(RegWr1), .RegWr2(RegWr2), .MemRead(MemRead), .MemWr(MemWr), 
+							.bneS(bneS), .Branch(Branch), .ALUop(ALUop), .jump(jump), .jrS(jrS), .jalS(jalS), .luiS(luiS), .newSignal(newSignal));
+	
+	initial
+		begin
+			opCode = 6'b000000; 
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b000000;	//RType
+			jrBit = 1'b0;
+			#period;
+			
+			opCode = 6'b100011; //lw
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b101011; //sw
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b000100; //beq
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b000101; //bne
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b000010; //j
+			jrBit = 1'b1;
+			#period;
+			
+			opCode = 6'b000011; //jal
+			jrBit = 1'b0;
+			#period;
+			
+			opCode = 6'b001101; //ori
+			jrBit = 1'b0;
+			#period;
+			
+			opCode = 6'b001111; //lui
+			jrBit = 1'b0;
+			#period;
+			end
+
+endmodule

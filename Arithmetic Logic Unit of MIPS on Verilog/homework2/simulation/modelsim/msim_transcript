@@ -1,0 +1,282 @@
+# Reading pref.tcl
+# do Homework2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:15 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_32bit.v 
+# -- Compiling module and_32bit
+# 
+# Top level modules:
+# 	and_32bit
+# End time: 21:21:15 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:15 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:21:15 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_32bit.v 
+# -- Compiling module or_32bit
+# 
+# Top level modules:
+# 	or_32bit
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/xor_32bit.v 
+# -- Compiling module xor_32bit
+# 
+# Top level modules:
+# 	xor_32bit
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/nor_32bit.v 
+# -- Compiling module nor_32bit
+# 
+# Top level modules:
+# 	nor_32bit
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/full_adder1bit.v 
+# -- Compiling module full_adder1bit
+# 
+# Top level modules:
+# 	full_adder1bit
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/not_32bit.v 
+# -- Compiling module not_32bit
+# 
+# Top level modules:
+# 	not_32bit
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/slt.v 
+# -- Compiling module slt
+# 
+# Top level modules:
+# 	slt
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux2x1.v 
+# -- Compiling module mux2x1
+# 
+# Top level modules:
+# 	mux2x1
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:16 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mux3x8.v 
+# -- Compiling module mux3x8
+# 
+# Top level modules:
+# 	mux3x8
+# End time: 21:21:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_4bit.v 
+# -- Compiling module carry_lookahead_adder_4bit
+# 
+# Top level modules:
+# 	carry_lookahead_adder_4bit
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod.v 
+# -- Compiling module mod
+# 
+# Top level modules:
+# 	mod
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_cu.v 
+# -- Compiling module mod_cu
+# 
+# Top level modules:
+# 	mod_cu
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/mod_dp.v 
+# -- Compiling module mod_dp
+# 
+# Top level modules:
+# 	mod_dp
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/mod_modules/comparator.v 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_adder_16bit.v 
+# -- Compiling module carry_lookahead_adder_16bit
+# 
+# Top level modules:
+# 	carry_lookahead_adder_16bit
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/detect_overflow.v 
+# -- Compiling module detect_overflow
+# 
+# Top level modules:
+# 	detect_overflow
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/carry_lookahead_logic.v 
+# -- Compiling module carry_lookahead_logic
+# 
+# Top level modules:
+# 	carry_lookahead_logic
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/and_3bit.v 
+# -- Compiling module and_3bit
+# 
+# Top level modules:
+# 	and_3bit
+# End time: 21:21:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:17 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/or_3bit.v 
+# -- Compiling module or_3bit
+# 
+# Top level modules:
+# 	or_3bit
+# End time: 21:21:18 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:18 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 21:21:18 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules {C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:21:18 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/akif_/Desktop/quartus/homework2/my_modules" C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v 
+# -- Compiling module my_testbench
+# 
+# Top level modules:
+# 	my_testbench
+# End time: 21:21:18 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  my_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" my_testbench 
+# Start time: 21:21:18 on Dec 10,2023
+# Loading work.my_testbench
+# Loading work.alu
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.xor_32bit
+# Loading work.nor_32bit
+# Loading work.adder
+# Loading work.sign_extend
+# Loading work.carry_lookahead_adder_16bit
+# Loading work.carry_lookahead_adder_4bit
+# Loading work.carry_lookahead_logic
+# Loading work.full_adder1bit
+# Loading work.and_3bit
+# Loading work.or_3bit
+# Loading work.slt
+# Loading work.detect_overflow
+# Loading work.mux2x1
+# Loading work.not_32bit
+# Loading work.mod
+# Loading work.mod_cu
+# Loading work.mod_dp
+# Loading work.comparator
+# Loading work.mux3x8
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v(207)
+#    Time: 455 ps  Iteration: 0  Instance: /my_testbench
+# Break in Module my_testbench at C:/Users/akif_/Desktop/quartus/homework2/my_modules/my_testbench.v line 207
+# End time: 21:55:35 on Dec 10,2023, Elapsed time: 0:34:17
+# Errors: 0, Warnings: 0

@@ -1,0 +1,61 @@
+module control_unit_testbench();
+	reg [5:0] opcode;
+	
+	wire regDst, branch, memRead, memWrite, ALUsrc, regWrite;
+	wire [2:0] ALUop;
+	
+	localparam period = 10;
+	
+	control_unit UUT(regDst, branch, memRead, memWrite, ALUop, ALUsrc, regWrite, opcode);
+	
+	initial
+		begin
+			#period;
+			opcode = 6'b000000;	//RType
+			#1 $display ("Rtype regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b000010;	//addi
+			#1 $display ("addi regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b000011;	//subi
+			#1 $display ("subi regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b000100;	//andi
+			#1 $display ("andi regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b000101;	//ori
+			#1 $display ("ori regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b001000;	//lw
+			#1 $display ("lw regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b010000;	//sw
+			#1 $display ("sw regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b001001;	//lb
+			#1 $display ("lb regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b010001;	//sb
+			#1 $display ("sb regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b000111;	//slti
+			#1 $display ("slti regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b100011;	//beq
+			#1 $display ("beq regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b100111;	//bne
+			#1 $display ("bne regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b111000;	//jump
+			#1 $display ("jump regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b111001;	//jal
+		#1 	$display ("jal regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			opcode = 6'b100000;	//move
+		#1 	$display ("move regDst-%d, branch-%d, memRead-%d, memWrite-%d, ALUsrc-%d, regWrite-%d, ALUop%3b\n", regDst,branch,memRead,memWrite,ALUsrc,regWrite,ALUop);
+			#period;
+			end
+
+endmodule

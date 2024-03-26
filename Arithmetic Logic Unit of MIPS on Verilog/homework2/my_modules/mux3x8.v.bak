@@ -1,0 +1,10 @@
+module mux3x8 (output F, input D0, D1, S)
+	wire wAnd1;
+	wire wAnd2;
+	wire sNot;
+	
+	not g0(sNot, S);
+	and g1(wAnd1, sNot, D0);
+	and g2(wAnd2, sNot, D0);
+	or g3(F, wAnd1, wAnd2);
+endmodule

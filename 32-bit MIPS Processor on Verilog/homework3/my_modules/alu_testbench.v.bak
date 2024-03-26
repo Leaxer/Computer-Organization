@@ -1,0 +1,47 @@
+module alu_testbench();
+reg [31:0] A,B;
+reg [2:0] ALUop;
+wire [31:0] Y;
+reg reset;
+reg CLK;
+alu alu_start(Y, A, B, ALUop, CLK, reset);
+
+	// ************
+	initial begin
+
+		reset = 1'b1;
+		CLK = 1'b0;
+		#5
+		reset = 1'b0;
+	end
+always
+	begin
+		#3
+		CLK = ~CLK;
+	end
+	// ************
+
+	initial begin
+		// A = 30 B = 20
+		A = 32'b00000000000000000000000000011110;
+		B = 32'b00000000000000000000000000010100;
+		ALUop = 3'b000;
+		#5
+		ALUop = 3'b001;
+		#5
+		ALUop = 3'b010;
+		#5
+		ALUop = 3'b011;
+		#5
+		ALUop = 3'b100;
+		#5
+		ALUop = 3'b101;
+		#5
+		ALUop = 3'b110;
+		#20
+		ALUop = 3'b111;
+		
+		#20
+		$finish;
+	end
+endmodule

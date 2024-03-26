@@ -1,0 +1,12 @@
+module alu(output [31:0] Result, input [31:0] A, input [31:0] B, input [2:0] ALUop);
+	always @(*) begin
+    case (ALUop)
+      3'b000: begin
+			and_32bit and_32bit1 (Result, A, B); // AND
+		end
+      default: begin
+			Result = 32'b0;
+		end
+    endcase
+  end
+endmodule
